@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
@@ -25,6 +26,8 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^30.0.0",
     "nodemon": "^3.1.10"
   }
 }
